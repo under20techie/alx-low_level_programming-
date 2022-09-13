@@ -8,9 +8,9 @@
  *
  * Return: Always 0.
  */
-void times_table(void)
+void times_table(int product)
 {
-  int i;
+  int i = 1;
   int n = 9;
 	int product;
 	product = i * n;
