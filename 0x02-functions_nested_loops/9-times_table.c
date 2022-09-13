@@ -10,11 +10,11 @@
  */
 void times_table(int product)
 {
-  int i = 1;
+  int i = 0;
   int n = 9;
 	int product;
 	product = i * n;
-	for (i = 1; i <= 12; ++i)
+	for (i = 0; i <= 12; ++i)
 {
    
 		++i;
