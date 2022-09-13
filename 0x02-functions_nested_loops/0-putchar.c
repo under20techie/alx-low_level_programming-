@@ -11,11 +11,11 @@
 int main(void)
 {
 	char school[9] = "_putchar";
-	int n = 0;
+	int i = 0;
 
-	for (n = 0; i < 8; n++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(school[n]);
+		_putchar(school[i]);
 	}
 	_putchar('\n');
 
