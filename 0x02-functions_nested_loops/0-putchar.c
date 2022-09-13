@@ -12,7 +12,7 @@ int main(void)
 {	char school[4] = "NNSS";
 	int n = 0;
 	
-	for (n = 0; n < 4; n++;)
+	for (n = 0; n < 4; n++)
 	{
 	 _putchar(school[n]);
 	}
