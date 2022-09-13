@@ -1,20 +1,32 @@
-#include "main.h"
+#include <stdio.h>
+#include "holberton.h"
 
 /**
- * add - adds two integers
- * @n1: integer 1
- * @n2: integer 2
+ * print_to_98 - prints numbers to 98
+ * @n: starting integer
  *
- * Description: give two integers, returns sum
+ * Description: prints all natural number from n - 98
  *
- * Return: sum
+ * Return: void
  */
 
-int add(int n1, int n2)
+void print_to_98(int n)
 {
-	int sum;
-
-	sum = n1 + n2;
-
-	return (sum);
+	if (n < 98)
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n);
+			n++;
+		}
+	}
+	else if (n > 98)
+	{
+		while (n > 98)
+		{
+			printf("%d, ", n);
+			n--;
+		}
+	}
+	printf("98\n");
 }
