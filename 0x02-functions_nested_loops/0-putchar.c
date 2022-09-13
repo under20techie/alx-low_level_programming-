@@ -3,16 +3,16 @@
 /**
  * main - Entry point
  *
- * Description : printing nnss
+ * Description : printing -putchar
  *
  * Return - Always 0 (Success)
  */
 
 int main(void)
-{	char school[4] = "NNSS";
+{	char school[8] = "_putchar";
 	int n = 0;
 	
-	for (n = 0; n < 4; n++)
+	for (n = 0; n < 8; n++)
 	{
 	 _putchar(school[n]);
 	}
