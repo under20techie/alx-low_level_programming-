@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description : printing -putchar
+ * Description : printing _putchar
  *
  * Return - Always 0 (Success)
  */
