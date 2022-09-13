@@ -17,7 +17,7 @@ void times_table(void)
 	for (i = 1; i <= 12; ++i)
 {
    
-		++i
+		++i;
 }
-	return (j);
+	return (product);
 }
