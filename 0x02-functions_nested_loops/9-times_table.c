@@ -8,7 +8,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void times_table(int j)
 {
   int i;
   int n = 9;
