@@ -15,7 +15,8 @@ int main(void)
 	int j = i * n;
 	for (i = 1; i <= 12; ++i)
 {
-    putchar(int j);
+    int j;
+		++i
 }
 	return (0);
 }
