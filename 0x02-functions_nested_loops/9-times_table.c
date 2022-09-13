@@ -12,11 +12,12 @@ void times_table(int j)
 {
   int i;
   int n = 9;
-	int j = i * n;
+	int j;
+	j = i * n
 	for (i = 1; i <= 12; ++i)
 {
-    int j;
+   
 		++i
 }
-	return (0);
+	return (j);
 }
