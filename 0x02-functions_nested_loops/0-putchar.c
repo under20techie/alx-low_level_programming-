@@ -1,21 +1,23 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - Entry point
+ * main - prints Holberton
  *
- * Description: printing _putchar
+ * Description: prints Holberton
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
-{	char school[9] = "_putchar";
+{
+	char school[9] = "_putchar";
 	int n = 0;
-	
- 	for (n = 0; n < 8; n++)
+
+	for (n = 0; i < 8; n++)
 	{
 		_putchar(school[n]);
-	}	
+	}
 	_putchar('\n');
+
 	return (0);
 }
