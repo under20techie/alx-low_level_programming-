@@ -13,7 +13,7 @@ void times_table(void)
   int i;
   int n = 9;
 	int product;
-	product = i * n
+	product = i * n;
 	for (i = 1; i <= 12; ++i)
 {
    
