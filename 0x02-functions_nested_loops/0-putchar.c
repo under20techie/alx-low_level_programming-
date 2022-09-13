@@ -9,13 +9,13 @@
  */
 
 int main(void)
-{	char school[8] = "_putchar";
+{	char school[9] = "_putchar";
 	int n = 0;
-	
+ 
 	for (n = 0; n < 8; n++)
 	{
 	 _putchar(school[n]);
 	}
 	 _putchar('\n');
-	 return(0);
+	 return (0);
 }
