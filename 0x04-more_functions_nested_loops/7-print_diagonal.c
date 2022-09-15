@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints a line of \ n long
- * @n: length of line
+ * print_diagonal - draws diagonal line
+ * @n: number of times
  *
  * Return: void
  */
@@ -10,11 +10,23 @@
 void print_diagonal(int n)
 {
 	int line = 0;
+	int spaces;
 
-	while (line < n)
+	if (n > 0)
 	{
-		_putchar('\\');
-		line++;
+		while (line < n)
+		{
+			for (spaces = 0; spaces < line; spaces++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+			line++;
+		}
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
 }
