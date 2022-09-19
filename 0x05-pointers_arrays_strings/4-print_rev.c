@@ -11,11 +11,16 @@
 void print_rev(char *s)
 {
   int r = 0;
-  int max = 50;
   
-  for (r=0; r < max; r--)
+  while (s[r])
   {
-    printf("%c", s[r]);
+    r++;
+    r -= 1;
+    while (r >= 0)
+    {
+      printf("%c", s[r]);
+      r--;
+    }
   }
   printf("\n");
 }
