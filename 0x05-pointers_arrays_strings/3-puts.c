@@ -12,7 +12,7 @@ void _puts(char *str)
 	int p = 0;
 	while (str[p])
 	{
-		printf ("%d\n" ,str[p]); 
+		printf ("%c\n" ,str[p]); 
 		p++;
 	}
 	
