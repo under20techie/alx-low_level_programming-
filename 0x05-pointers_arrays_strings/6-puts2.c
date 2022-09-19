@@ -11,7 +11,7 @@ void puts2(char *str)
 {
 int m, l;
 l = strlen(str);
-for (m = 0; m < l; m++)
+	for (m = 0; m < l; m++)
 {
 	  printf("%c", str[m]);
 	m = m + 1;
