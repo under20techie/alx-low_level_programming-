@@ -3,9 +3,9 @@
 /**
 * _strlen - Reads the length of string
 *
-* @s - Returns the value of a string
+* @s: Returns the value of a string
 *
-*Return - k;
+*Return: k;
 */
 
 int _strlen(char *s)
