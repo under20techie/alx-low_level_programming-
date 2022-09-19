@@ -11,8 +11,10 @@ void _puts(char *str)
 {
 	int p = 0;
 	while (str[p])
-		printf ("%s\n" ,str[p]); 
+	{
+		printf ("%d\n" ,str[p]); 
 		p++;
+	}
 	return 0;
 }
 	
