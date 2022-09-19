@@ -11,8 +11,9 @@
 void print_rev(char *s)
 {
   int r = 0;
+  int max = 50;
   
-  for (r=0; r <= 100; --r)
+  for (r=0; r < max; r--)
   {
     printf("%c", s[r]);
   }
