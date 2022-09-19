@@ -15,7 +15,7 @@ void print_rev(char *s)
   while (s[r])
   {
     r++;
-    r -= 1;
+    r = r - 1;
     while (r >= 0)
     {
       printf("%c", s[r]);
