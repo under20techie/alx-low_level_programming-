@@ -3,7 +3,7 @@
 /**
 * void reset_to_98 - resets the value of the pointer n.
 *
-* Description: @n is the pointer to reset
+* Description: n is the pointer to reset
 *
 * Return: Always 0 (Success);
 */
