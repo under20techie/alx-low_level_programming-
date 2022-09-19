@@ -16,7 +16,8 @@ first_char = s;
 last_char = s;
 for (i = 0; i < l - 1; i++)
 last_char++;
-for (i = 0; i < l / 2; i++) {
+for (i = 0; i < l / 2; i++) 
+{
 chr = *last_char;
 *last_char = *first_char;
 *first_char = chr;
