@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
-* swap_int(int *a, int *b) - swap values of *a and *b.
+* swap_int - swap values of *a and *b.
 *
-* @a,b:swap both the value of pointers a and b.
+* @a:swap the value of pointer a to b.
+* @b:swap the value of pointer b to a.
 *
 * Return: Always 0 (Success);
 */
