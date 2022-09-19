@@ -3,16 +3,16 @@
 /**
 * _strlen - Reads the length of string 
 *
-* @*s - Returns the value of a string
+* @s - Returns the value of a string
 *
-*Return - l;
+*Return - length;
 */
 
 int _strlen(char *s)
 {
 int length = 0;
 int k;
-	for (k = 0; k < length; k++)
+	for (k = 0; k < 50; k++)
 	{
 		length += s[k];
 	}
