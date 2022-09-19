@@ -7,11 +7,12 @@
 * Return: Always 0 (Success);
 */
 
-void puts2(char *str);
+void puts2(char *str)
 {
 int l, m;
 l = strlen(str);
 for (m = 0; m < l ; m++)
+{
 m += 2;
 printf("%c", str[m]);
 }
