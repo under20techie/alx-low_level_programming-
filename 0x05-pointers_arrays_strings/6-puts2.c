@@ -10,6 +10,7 @@
 void puts2(char *str)
 {
 int m, l;
+	int l = 0;
   for (m = 0; m < l; m++)
   {
 	  printf("%c", str[m]);
