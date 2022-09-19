@@ -12,9 +12,8 @@ void _puts(char *str)
 	int p = 0;
 	while (str[p])
 	{
-		printf ("%c" ,str[p]); 
+		printf("%c", str[p]);
 		p++;
 	}
 	printf("\n");
 }
-	
