@@ -10,18 +10,16 @@
 
 void print_rev(char *s)
 {
-  int r = 0;
-  
-  while (*(s + r))
-  {
-    r++;
-   r -= 1;
-   while (*(s + r))
-   {
-  _putchar (*(s + r));
-     r--;
-   }
-  }
-  _putchar('\n');
+	int r = 0;
+
+	while (*(s + r))
+		i++;
+	i = i - 1;
+	while (i >= 0)
+	{
+		_putchar(*(s + i));
+		i--;
+	}
+	_putchar('\n');
 }
  
