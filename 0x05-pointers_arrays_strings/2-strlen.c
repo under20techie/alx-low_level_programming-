@@ -17,4 +17,4 @@ int k;
 		length += s[k];
 	}
 	return(length);
-
+}
