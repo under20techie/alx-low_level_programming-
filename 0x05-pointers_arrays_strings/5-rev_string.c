@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+#include "main.h"
+/**
+* rev_string - reverses a string
+* @s: pointing to a string.
+* Return: Always 0 (Success);
+/*
+
+void rev_string(char *s)
+{
+int l, i;
+char *first_char, *last_char, chr;
+length = strlen(s);
+first_char = s;
+last_char = s;
+for (i = 0; i < length - 1; i++)
+last_char++;
+for (i = 0; i < l / 2; i++) {
+ch = *last_ptr;
+*last_char = *first_char;
+*first_char = ch;
+first_char++;
+last_char--;
+
+}
+
+}
