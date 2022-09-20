@@ -16,8 +16,8 @@ l = strlen(str);
 	{
 		printf("%c", str[z]);
 		z = z / 2;
-		z = z % 2;
-		printf("%c" ,str[z]);
 	}
+		z = z % 2;
+		printf("%c" , str[z]);
 	printf("\n");
 }
