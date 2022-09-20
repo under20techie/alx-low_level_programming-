@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int u, j, k, s;
+	int u, v, w, x;
 	char alpha[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char p[58];
 
