@@ -14,7 +14,7 @@ void puts_half(char *str)
 
 	while (str[v])
 		printf("%c", str[v]);
-	r = r / 2
+	r = r / 2;
 	}
 	printf("\n");
 }
