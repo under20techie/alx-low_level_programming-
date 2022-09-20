@@ -1,4 +1,4 @@
-#include <string.h>
+E#include <string.h>
 #include "main.h"
 #include <stdio.h>
 
@@ -13,9 +13,9 @@ void puts_half(char *str)
 {
 	int p = 0;
 	int m = 0;
- m = strlen(str);
 
 	while (*(str + p))
+{
 		m++;
 	p = m / 2;
 	if (m % 2)
@@ -25,5 +25,6 @@ void puts_half(char *str)
 		_putchar(*(str + p));
 		p++;
 	}
+}
 	_putchar('\n');
 }
