@@ -14,11 +14,11 @@ void puts_half(char *str)
 
 	while (str[v])
 		printf("%c", str[v]);
-	r = r / 2;
+	v = v / 2;
 	while (str[v])
-		r = r % 2;
-	printf(str(v);
-	       r++;
+		v = v % 2;
+	printf(str[v]);
+	       v++;
 	}
 	printf("\n");
 }
