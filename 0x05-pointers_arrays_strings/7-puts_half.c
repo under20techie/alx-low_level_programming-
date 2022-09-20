@@ -9,17 +9,15 @@
 */
 
 void puts_half(char *str)
-{
-	int v = 0;
 
-	while (str[v])
+int z, l;
+l = strlen(str);
+	for (z = 0; z < l; m++)
 	{
-		printf("%c", str[v]);
-	v = v / 2;
-	while (str[v])
-		v = v % 2;
-	printf("%c", str[v]);
-	       v++;
+		printf("%c", str[z]);
+		z = z / 2;
+		z = z % 2;
+		printf("%c" ,str[z]);
 	}
-printf("\n");
+	printf("\n");
 }
