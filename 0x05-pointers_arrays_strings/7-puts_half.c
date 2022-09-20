@@ -13,6 +13,7 @@ void puts_half(char *str)
 	int v = 0;
 
 	while (str[v])
+	{
 		printf("%c", str[v]);
 	v = v / 2;
 	while (str[v])
