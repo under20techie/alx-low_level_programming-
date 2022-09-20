@@ -1,29 +1,24 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* puts_half - prints the reverse of  a string.
-* @str: a pointer to the string array.
-*
-* Return: Always 0 (Success)
-*/
-
+ * puts_half -  prints half of a string.
+ * @str: string to be printed.
+ */
 void puts_half(char *str)
 {
-	int p;
-	int m = 0;
+	int m = 0, l = 0, p;
 
-	while (*(str + p))
-{
-m++;
-	p = m / 2;
-	if (m % 2)
-		p = p + 1;
-	while (p < m)
-	{
-		_putchar(*(str + p));
-		p++;
-	}
-}
+	while (str[m++])
+		l++;
+
+	if ((l % 2) == 0)
+		p = l / 2;
+
+	else
+		p = (l + 1) / 2;
+
+	for (m = p; m < len; m++)
+		_putchar(str[m]);
+
 	_putchar('\n');
 }
