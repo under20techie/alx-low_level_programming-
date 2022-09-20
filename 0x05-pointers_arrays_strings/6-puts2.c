@@ -11,10 +11,10 @@ void puts2(char *str)
 {
 int m, l;
 l = strlen(str);
-for (m = 0; m < l; m++)
-{
-	  printf("%c", str[m]);
-	m = m + 1;
-}
+	for(m = 0; m < l; m++)
+	{
+		printf("%c", str[m]);
+		m = m + 1;
+	}
 	printf("\n");
 }
