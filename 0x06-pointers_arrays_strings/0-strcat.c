@@ -3,8 +3,8 @@
 
 /**
 * _strcat - a  function that concatenates two strings char to dest.
-* @*src: pointer to string being appended to dest string.
-* @*dest: a pointer to string that scr is being added to.
+* @ char *src: pointer to string being appended to dest string.
+* @ char *dest: a pointer to string that scr is being added to.
 * Return: Always 0 (Success);
 */
 
