@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strncat - appends src to the dest string
@@ -13,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
-	i = j = n = 0;
+	i = j = 0;
 	while (*(dest + i))
 		i++;
 	while (j < n && *(src + j))
