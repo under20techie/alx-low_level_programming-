@@ -10,18 +10,17 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int k , l , m ,n;
-	l = strlen (dest);
-	n = strlen (src);
-	for (k = 0; k < l; k++)
-	{
-		for (m =0; m < n; m++)
-			
+	int k , m;
+	k = 0;
+	m = 0;
+	while ((*(dest + k))
+	       {
+		       k++
+		 }
 	while ((*(dest + k) = *(src + m)))
 		 {
 		m++;
 		k++;
 		 }
-	}
 return (dest);		
 }
