@@ -14,16 +14,12 @@ char *_strcat(char *dest, char *src)
 	l = strlen (dest);
 	
 	for (k = 0; k < l; k++)
-	{ 
-		for
+
 	while ((*(dest + k) = *(src + m)))
 		 {
 		m++;
 		k++;
 		 }
 
-		putchar('(*(dest + k)');
-		putchar('(*(src + k)');
-	}
 return (dest);		
 }
