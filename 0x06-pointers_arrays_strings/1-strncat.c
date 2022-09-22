@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strncat - appends src to the dest string
@@ -6,7 +6,7 @@
  * @src: string to append to dest
  * @n: largest number of bytes to append
  *
- * Return: address of dest
+ * Return: &dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
