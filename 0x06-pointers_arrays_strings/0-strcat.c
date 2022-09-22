@@ -22,9 +22,8 @@ char *_strcat(char *dest, char *src)
 		k++;
 		 }
 
-	
-		return (dest);
 		putchar('(*(dest + k)');
 		putchar('(*(src + k)');
-		
+	}
+return (dest);		
 }
