@@ -17,9 +17,11 @@ char *_strcat(char *dest, char *src)
 	{
 		for (m = 0; m <= n; m++)
 		{
-		*(dest + k) = *(src + m);
+		 while (*(dest + k) = *(src + m))
+		 {
 		m++;
 		k++;
+		 }
 	
 		}
 	}
