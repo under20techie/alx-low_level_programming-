@@ -10,9 +10,9 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int k , l , m, n;
+	int k , l , m;
 	l = strlen (dest - 1);
-	n = strlen (src);
+	
 	for (k = 0; k < l; k++)
 	{
 	
