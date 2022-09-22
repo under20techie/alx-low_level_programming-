@@ -13,7 +13,6 @@ char *_strcat(char *dest, char *src)
 	int k, m;
 
 	k = m = 0;
-
 while ((*(dest + k)))
 		 k++;
 	while (((*(dest + k) = *(src + m))))
