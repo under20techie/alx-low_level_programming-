@@ -11,12 +11,11 @@
 char *_strcat(char *dest, char *src)
 {
 	int k , m;
-	k = 0;
-	m = 0;
+	k = m = 0;
 	while ((*(dest + k))
 	       {
 		       k++;
-		 }
+		}
 	while ((*(dest + k) = *(src + m)))
 		 {
 		m++;
