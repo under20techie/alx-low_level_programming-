@@ -21,10 +21,10 @@ char *_strcat(char *dest, char *src)
 		 {
 		m++;
 		k++;
+		 }
 
 }
 	
 		return (dest);
 		
-}
 }
