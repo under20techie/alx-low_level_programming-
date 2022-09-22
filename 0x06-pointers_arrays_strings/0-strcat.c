@@ -15,16 +15,16 @@ char *_strcat(char *dest, char *src)
 	n = strlen (src);
 	for (k = 0; k < l; k++)
 	{
-		for (m = 0; m <= n; m++)
-		{
+	
+	
 		 while (*(dest + k) = *(src + m))
 		 {
 		m++;
 		k++;
-		 }
+
 	
 		}
-	}
+	
 		return (dest);
 		
 }
