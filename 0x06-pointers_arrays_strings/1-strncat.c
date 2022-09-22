@@ -10,12 +10,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int l, p;
+	int i, j;
 
-	l = p = 0;
-	while (*(dest + l))
-		l++;
-	if (l < n)
-		*(dest + l) = *(src + p);
+	i = j = 0;
+	while (*(dest + i))
+		i++;
+	while (j < n && *(src + j))
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
+	}
+	if (j < n)
+		*(dest + i) = *(src + j);
 	return (dest);
 }
