@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
-* _puts_recursion - functionter that prints the value of the pointers
-* @char s: pointer the the string.
-*/
-
+ * _puts_recursion - prints a string followed by a new line
+ * @s: string to print
+ *
+ * Return: void
+ */
 void _puts_recursion(char *s)
 {
-	int i;
-	while (*(s + i))
+	if (*s == '\0')
 	{
-	putchar(*(s + i));
-	i++
+		_putchar('\n');
+		return;
 	}
-	putchar ('\n');
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
