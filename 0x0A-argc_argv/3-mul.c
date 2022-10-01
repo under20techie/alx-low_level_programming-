@@ -17,7 +17,7 @@ int mult;
   return (1);
 }
 	for (i = 1; i < argc; i++)
-    mult = mult * atoi(argv[i]);
+    mult = mult * atoi(i);
 		printf("%d\n", mult);
 	return (0);
 }
