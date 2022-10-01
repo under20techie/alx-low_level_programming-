@@ -12,11 +12,11 @@ int i;
 int mult;
   if (argc < 2)
 {
-    printf("%s\n", Error)
+    printf("%s\n", Error);
   return (1);
 }
 	for (i = 1; i < argc; i++)
     mult *= atoi(argv[i]);
-		printf("%d\n", argv[i]);
+		printf("%d\n", atoi(argv[i]));
 	return (0);
 }
