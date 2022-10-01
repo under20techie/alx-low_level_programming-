@@ -6,8 +6,8 @@
 * @argv:an array poniter to the number of strings
 * Return: 0 always sucess
 */
-int main(int argc  __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", argc -1);
 return (0);
 }
