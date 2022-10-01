@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c *.car -rc liball.a *.o
+gcc -Wall -Werror -Wextra -pedantic -c *.car -rc liball.a *.o
