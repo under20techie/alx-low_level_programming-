@@ -17,8 +17,9 @@ if (argc < 2)
 	return (1);
 }
 for (i = 1; i < argc; i++)
+{
 	mult = mult * atoi(argv[i]);
 	printf("%d\n", mult);
-
-	return (0);
+}
+return (0);
 }
