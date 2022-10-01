@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * main - function that prints itslef followed by a new name
 * @argc: parameter that counts the number of arguements passed to the function
