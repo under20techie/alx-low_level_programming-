@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 * main - function that prints itslef followed by a new name
 * @argc: parameter that counts the number of arguements passed to the function
@@ -16,7 +17,7 @@ int mult;
   return (1);
 }
 	for (i = 1; i < argc; i++)
-    mult *= atoi(argv[i]);
+    mult = mult * atoi(i);
 		printf("%d\n", mult);
 	return (0);
 }
