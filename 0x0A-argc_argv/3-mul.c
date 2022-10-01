@@ -20,6 +20,8 @@ for (i = 1; i < argc; i++)
 {
 	mult = mult * atoi(argv[i]);
 	printf("%d\n", mult);
+	if( i > 2)
+		break;
 }
 return (0);
 }
