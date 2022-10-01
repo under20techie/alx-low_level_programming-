@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * main - function that prints itslef followed by a new name
-* @argc: parameter that counts the number of arguements passed to the function on the command line
+* @argc: parameter that counts the number of arguements passed to the function 
 * @argv:an array poniter to the number of strings
 * Return: 0 always sucess
 */
