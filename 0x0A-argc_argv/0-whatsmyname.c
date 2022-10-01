@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * printsargv - function that prints itslef followed by a new name
 * @argc: parameter that counts the number of arguements passed to the function on the command line
