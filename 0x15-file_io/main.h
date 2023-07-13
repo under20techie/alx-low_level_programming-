@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_N
-
 #include <elf.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -26,4 +25,4 @@ void print_osabi(unsigned char *e_ident);
 void print_type(unsigned int e_type, unsigned char *e_ident);
 void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
-#endif
+#endif /* _MAIN_H_ *?
