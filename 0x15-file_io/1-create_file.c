@@ -9,7 +9,8 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, x, y = 0;
+	int fd, bytes_written;
+	int len_text =  my_strlen(text_content);
 
 	if (!filename)
 		return (-1);
@@ -20,10 +21,9 @@ int create_file(const char *filename, char *text_content)
 
 	if (text_content)
 	{
-		while (text_content[y])
-			y++;
-		x = write(fd, text_content, y);
-		if (x != y)
+		bytes_written = write(fd, text_content, len_text);
+		if (bytes_written != len_text)
+			close(fd);
 			return (-1);
 	}
 
