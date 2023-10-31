@@ -9,7 +9,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd = 0,  bytes_written = 0, len_text = 0;
+	int fd, bytes_written, len_text;
 	if (text_content)
 		len_text = my_strlen(text_content);
 
@@ -34,7 +34,6 @@ int create_file(const char *filename, char *text_content)
 
 	return (1);
 }
-
 /**
 * my_strlen - Reads the length of string
 *
