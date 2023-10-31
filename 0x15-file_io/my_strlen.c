@@ -10,7 +10,7 @@
 
 int my_strlen(char *s)
 {
-int k = 0;
+	int k = 0;
 	while (s[k])
 		k++;
 	return (k);
