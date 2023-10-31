@@ -34,12 +34,13 @@ int create_file(const char *filename, char *text_content)
 
 	return (1);
 }
+
 /**
 * my_strlen - Reads the length of string
 *
 * @s: Returns the value of a string
 *
-* Return: k;
+* Return: k
 */
 
 int my_strlen(char *s)
