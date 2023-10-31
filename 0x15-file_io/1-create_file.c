@@ -23,7 +23,6 @@ int create_file(const char *filename, char *text_content)
 	{
 		bytes_written = write(fd, text_content, len_text);
 		if (bytes_written != len_text)
-			close(fd);
 			return (-1);
 	}
 
