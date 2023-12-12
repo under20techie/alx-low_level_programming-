@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -shared -o hack.so -fpic hack.c
-export LD_PRELOAD=./hack.so:$LD_PRELOAD
+gcc -shared -o my_printf.so -fPIC test.c
+export LD_PRELOAD=./my_printf.so:$LD_PRELOAD
