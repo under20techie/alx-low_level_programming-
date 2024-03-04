@@ -1,8 +1,8 @@
 # Use the all rule builds your executable school
 
-SRC := main.c school.c
+SRC = main.c school.c
 CC = gcc
 
 all: school
-school: %.c
+school: ${SRC}
 	${CC} ${SRC} -o school
