@@ -1,0 +1,4 @@
+# Use the all rule builds your executable school
+
+all: school
+%: %.c
